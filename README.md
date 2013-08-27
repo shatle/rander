@@ -1,6 +1,6 @@
 # Rander
 
-TODO: Write a gem description
+Just want to generate a string from mostly of charset which will get a shorter string. 
 
 ## Installation
 
