@@ -17,7 +17,7 @@ module Rander
     result_arr = []
     num2 = num 
     num.times{ result_arr << select_arr[now_time[-6*(num-num2+1),6].to_s.to_i(2)]; num2=num2-1 ;}
-    result_arr << origin_arr[now_time[0, ext].to_s.to_i(2) + rand(32).to_i]
+    result_arr << select_arr[now_time[0, ext].to_s.to_i(2) + rand(32).to_i]
     result_arr.join("")
   end
 end

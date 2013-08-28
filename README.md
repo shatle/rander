@@ -2,6 +2,8 @@
 
 Just want to generate a string from mostly of charset which will get a shorter string. 
 
+Now, just use Time.now + rand(32) to be a code
+
 ## Installation
 
 Add this line to your application's Gemfile:
